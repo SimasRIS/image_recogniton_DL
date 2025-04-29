@@ -75,5 +75,4 @@ img/
 
 - Add more pictures - the more examples the program has, the better it learns
     - Use picture editing tricks (like flipping or rotating) to create more training examples
-    - Try using more advanced picture recognition systems for better results
     - Adjust settings like training time and picture batch size to improve accuracy
