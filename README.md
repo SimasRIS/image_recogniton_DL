@@ -10,27 +10,36 @@ When using the normal settings (18 training rounds, 40 pictures at a time, with 
 
 ## How to start using it
 
+1. Get the program files
 ```
-# 1. Get the program files
 $ git clone https://github.com/SimasRIS/image_recogniton_DL.git
+```
+```
 $ cd image_recogniton_DL
-
-# 2. (Optional) set up a separate workspace
+```
+2. (Optional) set up a separate workspace
+```
 $ python -m venv venv
-# macOS / Linux
+```
+- macOS / Linux
+```
 $ source venv/bin/activate
-# Windows
+```
+- Windows
+```
 $ venv\Scripts\activate
-
-# 3. Install needed software
+```
+3. Install needed software
+```
 $ pip install -r requirements.txt
+```
+4. Add your pictures
+- Put them in folders like this:
+- img/category_name/picture1.jpg
+- img/category_name/picture2.png
 
-# 4. Add your pictures
-#    Put them in folders like this:
-#    img/category_name/picture1.jpg
-#    img/category_name/picture2.png
-
-# 5. Start the program
+5. Start the program
+```
 $ python main.py
 ```
 
